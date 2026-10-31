@@ -1,25 +1,5 @@
 # FocusFlow — Personal Learning Tracker
 
-## 中文快速上手
-
-这是一个**纯前端 React + TypeScript** 的学习任务仪表盘。三个 Tab 共用同一份任务数据，用 `status` 在 `backlog` / `active` / `completed` 之间移动，无需重复录入。主页最多 5 个任务；每个任务直接展开学习单元，勾选后自动更新进度。全部学习单元完成后，任务自动归档并记录完成日期。
-
-```bash
-npm install
-npm run dev
-```
-
-浏览器打开终端显示的本地地址（通常是 `http://localhost:5173`）。
-
-- **Active Tasks**：修改 P1/P2/P3 优先级、截止日期、每个 Learning Session 的预计时间和实际时间、勾选完成情况。
-- **Backlog**：保存无限个未来计划；表格有可点击的 Resource Link 和自由文本备注，点击 Activate 即可移动到主页（已有 5 个任务时不能再激活）。
-- **Completed**：查看每项任务的完成日期、预估与实际学习时长及全部学习单元；支持 Reopen。
-- **Export / Import**：通过 JSON 文件备份 / 恢复。导入会覆盖原数据，请先备份。
-
-首次运行会加入少量演示数据，全部可修改或删除。数据存在**当前浏览器的 IndexedDB**，不具备自动跨设备同步；清除网站数据可能丢失记录。
-
----
-
 A small **frontend-only** React + TypeScript learning dashboard, inspired by the three-tab LMS layout.
 
 ## Run locally
